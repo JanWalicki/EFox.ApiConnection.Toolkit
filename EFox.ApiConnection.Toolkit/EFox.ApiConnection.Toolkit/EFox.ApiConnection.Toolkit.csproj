@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Version>2.0.1</Version>
+		<Company>EFoxStudio</Company>
+		<Description>Simple library to make connections to api simpler.</Description>
+		<NeutralLanguage>en</NeutralLanguage>
+		<PackageIcon>avatar.png</PackageIcon>
+		<PackageTags>api; api connection; EFox; EFox api; simple api; simple api connection; simple connection; simple webclient; web client; HttpClient; web; connection;</PackageTags>
+		<RepositoryUrl>https://github.com/EFoxStudio/EFox.ApiConnection.Toolkit</RepositoryUrl>
+		<AssemblyVersion>2.0.1</AssemblyVersion>
+		<FileVersion>2.0.1</FileVersion>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Include="C:\Users\EFox\Downloads\avatar.png">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.9" />
+	</ItemGroup>
+	
+	
+</Project>
